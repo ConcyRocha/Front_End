@@ -40,12 +40,12 @@
     max-width:100%;
     height:auto;
   }
-  img[data-src]{
-    opacity:0;
-    transform:scale(0);
+  img[data-src] {
+    opacity: 0;
+    transform: translateX(-100%);
   }
-  img[src]{
-    opacity:1;
-     transform:scale(1);
-    transition:.3s ease-in-out;
+  img[src] {
+    opacity: 1;
+    transform: translateX(0);
+    transition: .3s ease-in-out;
   }
